@@ -1,0 +1,46 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Air Jordan Low",
+            "price": 500000,
+            "qty": 10
+        },
+        {
+            "id": 2,
+            "name": "Nike Renew",
+            "price": 500000,
+            "qty": 10
+        },
+        {
+            "id": 3,
+            "name": "Air Jordan High",
+            "price": 3500000,
+            "qty": 10
+        }
+    ],
+    "users": [
+        {
+            "id": 2,
+            "username": "Abdi",
+            "password": "123456",
+            "email": "abdi@yahoo.com",
+            "role": "user",
+            "cart": []
+        },
+        {
+            "id": 3,
+            "password": "123456",
+            "email": "edi@mail.com"
+        },
+        {
+            "username": "Aldo",
+            "password": "123456",
+            "email": "aldi@mail.com",
+            "role": "user",
+            "id": 4,
+            "cart": []
+        }
+    ],
+    "userTransactions":[]
+}
