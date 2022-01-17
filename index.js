@@ -9,6 +9,11 @@ const data = JSON.parse(fs.readFileSync("./db.json"))
 // konfigurasi untuk dapat menerima data req.body dari user/client/front-end
 app.use(express.json());
 
+// import routing api configuration
+const { usersRoute } = require('./routes')
+
+app.use('/users', usersRoute);
+
 // untuk menerima req dari client
 app.get("/", (req, res) => {
     res.status(200).send('<h1>Welcome to Express API</h1>')
